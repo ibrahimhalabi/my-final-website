@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+  
+html {
+  scroll-behavior: smooth;
+}
+  
+  
+body {
+  font-family: "calibri light";
+  font-weight: 400;
+  font-size: 16px;
+  background-color: darkgray;
+  text-align: center;
+  scroll-behavior: smooth;
+}
+  
+  
+.header {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+ 
+.link-class{
+  text-decoration: none;
+  color: white;
+} 
+  
+.my-name-header{
+  font-size: 20px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+  
+  
+.home{
+  font-size: 20px;
+  position: absolute;
+  top: 20px;
+  right: 330px;
+}
+  
+  
+.about{
+  font-size: 20px;
+  position: absolute;
+  top: 20px;
+  right: 260px;
+}
+  
+  
+.portfolio{
+  font-size: 20px;
+  position: absolute;
+  top: 20px;
+  right: 170px;
+}
+  
+  
+.clients{
+  font-size: 20px;
+  position: absolute;
+  top: 20px;
+  right: 100px;
+}
+  
+  
+.contact{
+  font-size: 20px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+ 
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.portfolio-one{
+  width: 900px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.red-fireworks{
+  height: 150px;
+  width: 200px;
+  margin-right: 50px;
+  opacity: 0.7;
+}
+.rail-way{
+  height: 150px;
+  width: 200px;
+  opacity: 0.7;
+}
+.the-village{
+  height: 150px;
+  width: 200px;
+  margin-left: 50px;
+  opacity: 0.7;
+}
+  
+.portfolio-two{
+  width: 900px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.snow-sunset{
+  height: 150px;
+  width: 200px;
+  margin-right: 50px;
+  opacity: 0.7;
+}
+.gods-essence{
+  height: 150px;
+  width: 200px;
+  opacity: 0.7;
+}
+.spiral-stone{
+  height: 150px;
+  width: 200px;
+  margin-left: 50px;
+  opacity: 0.7;
+}
+  
+.portfolio-three{
+  width: 900px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.ancient-stone{
+  height: 150px;
+  width: 200px;
+  margin-right: 50px;
+  opacity: 0.7;
+}
+.old-tractor{
+  height: 150px;
+  width: 200px;
+  opacity: 0.7;
+}
+.old-wheels{
+  height: 150px;
+  width: 200px;
+  margin-left: 50px;
+  opacity: 0.7;
+}
+
+.footer{
+  height: 10vh;
+  position: absolute;
+  margin-bottom: 1%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+}
